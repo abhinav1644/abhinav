@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Login Page</title>
+  <script>
+    function login() {
+        if (document.getElementById('email').value === 'chavara123' && document.getElementById('password').value ==='age36') {
+            window.location.href = 'https://github.com/abhinav1644';
+        } else {
+            alert('Please enter both username and password.');
+        }
+    }
+    </script>
+</head>
+<body>
+
+  <h2>Login</h2>
+
+  <form action="login.php" method="post">
+    <input type="email" placeholder="username" id="email">
+    <input type="'password" placeholder="password" id="password">
+    <button type="submit" onclick="login()"></button> Login </button>
+   
+<!-- Sign Up Link -->
+<p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+
+</body>
+</html>
